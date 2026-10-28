@@ -1,0 +1,12 @@
+[
+  {"appointment_id": "A001", "date": "2026-11-02", "time": "09:00", "specialty": "cardiology",       "doctor": "Dr. Elena Ruiz",    "available": true},
+  {"appointment_id": "A002", "date": "2026-11-02", "time": "10:30", "specialty": "cardiology",       "doctor": "Dr. Elena Ruiz",    "available": false},
+  {"appointment_id": "A003", "date": "2026-11-02", "time": "14:00", "specialty": "cardiology",       "doctor": "Dr. Marcus Lee",    "available": true},
+  {"appointment_id": "A004", "date": "2026-11-03", "time": "09:30", "specialty": "dermatology",      "doctor": "Dr. Priya Shah",    "available": true},
+  {"appointment_id": "A005", "date": "2026-11-03", "time": "11:00", "specialty": "pediatrics",       "doctor": "Dr. Hannah Okafor", "available": true},
+  {"appointment_id": "A006", "date": "2026-11-04", "time": "08:30", "specialty": "orthopedics",      "doctor": "Dr. Samuel Brooks", "available": false},
+  {"appointment_id": "A007", "date": "2026-11-04", "time": "13:00", "specialty": "orthopedics",      "doctor": "Dr. Samuel Brooks", "available": true},
+  {"appointment_id": "A008", "date": "2026-11-05", "time": "10:00", "specialty": "general medicine", "doctor": "Dr. Grace Kim",     "available": true},
+  {"appointment_id": "A009", "date": "2026-11-06", "time": "15:30", "specialty": "cardiology",       "doctor": "Dr. Marcus Lee",    "available": true},
+  {"appointment_id": "A010", "date": "2026-11-09", "time": "09:00", "specialty": "dermatology",      "doctor": "Dr. Priya Shah",    "available": true}
+]

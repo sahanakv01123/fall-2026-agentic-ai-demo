@@ -1,0 +1,27 @@
+# Agent configuration - read by src/agent.py (see load_config()).
+# Only simple shapes are supported: sections, "key: value" pairs, and "- item" lists.
+
+agent:
+  name: Hospital Appointment Assistant
+  hospital: Maple Grove General Hospital (fictional)
+  version: 1.0.0
+
+specialties:
+  - cardiology
+  - dermatology
+  - pediatrics
+  - orthopedics
+  - general medicine
+
+search:
+  max_results: 3
+
+safety:
+  # The demo ALWAYS requires approval. Setting this to false only prints a warning,
+  # because safety rules belong in code, not just in a config file.
+  require_human_approval: true
+
+logging:
+  # Change to INFO to see each tool call logged.
+  level: WARNING
+  format: "%(levelname)s [%(name)s] %(message)s"

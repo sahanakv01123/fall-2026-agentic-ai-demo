@@ -1,0 +1,26 @@
+{
+  "_note": "Illustrative metadata for teaching. Not automatically recognized by Claude Code, Codex, or most agent frameworks.",
+  "name": "hospital-agent-demo",
+  "version": "1.0.0",
+  "description": "Teaching repository: a fictional hospital appointment scheduling agent.",
+  "license": "MIT",
+  "runtime": {
+    "language": "python",
+    "min_version": "3.11",
+    "entry_point": "python3 -m src.agent",
+    "dependencies": []
+  },
+  "capabilities": [
+    "answer_appointment_questions",
+    "search_appointments_by_specialty_and_date",
+    "recommend_appointment_slot",
+    "prepare_booking_request"
+  ],
+  "tools": ["search_appointments", "get_patient", "create_booking_request"],
+  "skills": ["appointment-scheduling", "patient-summary"],
+  "safety": {
+    "requires_human_approval": true,
+    "auto_confirms_bookings": false,
+    "uses_real_patient_data": false
+  }
+}

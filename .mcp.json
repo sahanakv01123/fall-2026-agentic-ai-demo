@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "hospital-scheduling-PLACEHOLDER": {
+      "command": "python3",
+      "args": ["-m", "placeholder_mcp_server_NOT_IMPLEMENTED"],
+      "env": {
+        "HOSPITAL_DATA_DIR": "./data",
+        "READ_ONLY": "true"
+      }
+    }
+  }
+}

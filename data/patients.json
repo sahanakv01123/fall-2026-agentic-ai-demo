@@ -1,0 +1,47 @@
+[
+  {
+    "patient_id": "P001",
+    "name": "John Smith",
+    "date_of_birth": "1980-04-12",
+    "phone": "555-0101",
+    "preferred_contact": "phone",
+    "preferred_time": "morning",
+    "language": "English"
+  },
+  {
+    "patient_id": "P002",
+    "name": "Maria Garcia",
+    "date_of_birth": "1992-09-30",
+    "phone": "555-0102",
+    "preferred_contact": "email",
+    "preferred_time": "afternoon",
+    "language": "Spanish"
+  },
+  {
+    "patient_id": "P003",
+    "name": "Wei Chen",
+    "date_of_birth": "1975-01-22",
+    "phone": "555-0103",
+    "preferred_contact": "text",
+    "preferred_time": "morning",
+    "language": "Mandarin"
+  },
+  {
+    "patient_id": "P004",
+    "name": "Aisha Johnson",
+    "date_of_birth": "2015-06-08",
+    "phone": "555-0104",
+    "preferred_contact": "phone",
+    "preferred_time": "afternoon",
+    "language": "English"
+  },
+  {
+    "patient_id": "P005",
+    "name": "Liam O'Brien",
+    "date_of_birth": "1968-11-15",
+    "phone": "555-0105",
+    "preferred_contact": "email",
+    "preferred_time": "any",
+    "language": "English"
+  }
+]
